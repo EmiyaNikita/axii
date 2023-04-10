@@ -211,3 +211,37 @@ span {
     opacity: 0.7;
     text-transform: capitalize;
 }
+
+.custom-prewiew h1 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.custom-prewiew p {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.custom-human {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr/repeat(3, 1fr);
+    justify-items: center;
+}
+
+.custom-human ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    padding: 40px 0 0 0;
+}
+
+.custom-human span {
+    font-size: 120%;
+    color: black;
+}
+
+.custom-human p {
+    padding: 20px 0 0 150px;
+}
